@@ -1,0 +1,160 @@
+.shantell-sans {
+    font-family: "Shantell Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "BNCE" 0,
+      "INFM" 0,
+      "SPAC" 0;
+  }
+
+body {
+    text-align: center;
+    margin: 0
+}
+
+hr {
+    border: dotted black 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+p {
+    line-height: 2;
+}
+
+.top-container {
+    position: relative;
+    padding-top: 100px;
+    /* background: linear-gradient(45deg, rgba(41,160,242,1) 0%, rgba(129,151,156,1) 75%, rgba(255,220,69,1) 100%); */
+    background: linear-gradient(45deg, rgba(162,210,255,1) 0%, rgba(188,215,202,1) 75%, rgba(254,228,64,1) 100%);
+}
+
+.mid-container {
+    background-color: #FEF9EF;
+    padding: 0 0 100px 0;
+}
+
+h1 {
+    position: relative;
+    font-size: 5rem;
+    font-family: "Marck Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin: 100px auto 0 auto;
+}
+
+h2 {
+    font-family: "Handjet", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "ELGR" 1,
+        "ELSH" 2;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #FF865E;
+}
+
+h3 {
+    font-family: "Handjet", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "ELGR" 1,
+        "ELSH" 2;
+    color: #ff5e28;
+    font-weight: bold;
+}
+
+#programmer {
+    color: black;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.sun {
+    position: absolute;
+    height: 300px;
+    top: 0;
+    right: 0;
+}
+
+.skyline {
+    position: relative;
+    width: 100%;
+    bottom: -4px;
+}
+
+.profile-img {
+    margin-top: 100px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+#skill-grid {
+    display: grid;
+    grid-template: 1fr 1fr / 0.5fr 1fr;
+    align-items: center;
+    margin: 10px auto 0 auto;
+    width: 50%;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+
+.skill-img {
+    justify-self: center;
+    text-align: right;
+}
+
+.skill-txt {
+    justify-self: start;
+    text-align: left;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+    background-image: linear-gradient(to bottom, #FF865E, #fe541b);
+    color: black;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-image: linear-gradient(to top, #FF865E, #FF865E);
+}
+
+.bottom-container {
+    background-color: #FF865E;
+    padding: 50px 0 20px 0;
+}
+
+.footer-link {
+    color: black;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: gray;
+}
+
+.copyright {
+    font-size: 0.75rem;
+}
