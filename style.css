@@ -102,9 +102,13 @@ h3 {
     margin: auto;
 }
 
+#skills {
+    width: 100vw;
+}
+
 #skill-grid {
     display: grid;
-    grid-template: 1fr 1fr / 0.5fr 1fr;
+    grid-template: 1fr 1fr / 1fr 1fr;
     align-items: center;
     margin: 10px auto 0 auto;
     width: 50%;
@@ -115,6 +119,11 @@ h3 {
 .skill-img {
     justify-self: center;
     text-align: right;
+}
+
+.skill-img > img {
+    width: 100%;
+    object-fit: contain;
 }
 
 .skill-txt {
@@ -157,4 +166,20 @@ h3 {
 
 .copyright {
     font-size: 0.75rem;
+}
+
+@media (max-width: 720px) {
+    #skill-grid {
+        display: grid;
+        grid-template: 1fr 1fr 1fr 1fr / 1fr;
+        align-items: center;
+        margin: 10px auto 0 auto;
+        width: 50%;
+        gap: 0;
+    }
+
+    .skill-txt {
+        justify-self: start;
+        text-align: center;
+    }
 }
